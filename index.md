@@ -1,7 +1,7 @@
-# Heading 1 CSE 15L 
+# CSE 15L lab 1 
 
 useful link for makedown: 
-[Link]([http://a.com](https://www.markdownguide.org/getting-started/))
+[Link](https://www.markdownguide.org/getting-started/)
 
 * Hello world! 
 * Nihao Shijie! 
