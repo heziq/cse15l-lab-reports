@@ -73,6 +73,12 @@ Also try these command too:
 - `ls <directory>`
 - `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 - `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+
+Here are some examples of what you will see when you run the commands: 
+![command-1](https://user-images.githubusercontent.com/122570012/212752910-de6c9e2b-6945-4f34-a195-0bcb2a817983.png)
+![command-2](https://user-images.githubusercontent.com/122570012/212752920-19193b2f-20ea-458a-8732-22f7611343d1.png)
+
+
   
 After finishing, you can log out the remote server, you can :
 - Ctrl D
