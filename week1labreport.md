@@ -3,7 +3,60 @@
   This will be a tutorial first CSE 15L lab, meaningly about remote access to the ieng6 course specific account and run simple commands. 
 
 ## Step 1 - Installing VScode 
-1. Go to the Visual Studio Cose websit [link](https://code.visualstudio.com/), and download the suitable version of VScode for you computer. 
+
+1. Go to the Visual Studio Cose websit [Visual Studio Website](https://code.visualstudio.com/), and download the suitable version of VScode for you computer. 
+
 2. Once finish downloading and installing, open VS code, this should be the page you will see. 
 
-![](https://Screenshot 2023-01-12 134436.png)
+  ![start vs code](https://user-images.githubusercontent.com/122570012/212607763-869b4902-1b4d-4d0a-9145-be2b868a2eb7.png)
+   
+Now we are done with first step, let's move to next step. 
+
+
+## Step 2 - Remotely Connecting 
+1. Set up your CSE 15L course specific account. 
+
+    a. Look up you account user name throw the link here: [Account look up](https://sdacs.ucsd.edu/~icc/index.php)
+    
+    b. Once logged in, follow the link below to reset your password for this course specific account : [tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
+    
+    *(Please make sure to read through the guideline, it is very common to meet problems here)*. 
+    
+2. If you are using Windows, please install the git, which comes with some useful tools we will need.  
+    
+   [git for Windows](https://gitforwindows.org/)
+   
+   After installing, use this steps to set your default terminal on VS code. 
+   
+   [steps](https://gitforwindows.org/)
+    
+3. Now open a new terminal in the VS code, you do not need to create or open a file. On the top of the menu, select "terminal" then "new terminal". 
+
+4. In you terminal enter the following command, notice that "zz" should be replaced with your own account. Remember you do not need type "$", that's just how we write commond. 
+
+```
+$ ssh cs15lwi23zz@ieng6.ucsd.edu
+```
+
+  If this is the first time that you are connecting to a server, you will probably get this message: 
+
+```
+⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+
+  Type "yes" and "enter"
+
+  Then you will be able to enter your passowrd at this time. Notice that the password would not shown on screen for security, just type "enter" when you finish your password.  
+  
+5. Once you successfully connected, you will see something like this: 
+
+![logged-in](https://user-images.githubusercontent.com/122570012/212614101-baf01ce0-e291-4167-aef3-6b0ca4467e73.png)
+
+  Now your terminal is connected to a computer in CSE basement, and any commands you will run on that computer. 
+  
+  
+## Step 3 Trying Some Commands
+
