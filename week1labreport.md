@@ -1,4 +1,4 @@
-# Week 1 Lab Report - Yaran Yang 
+# Lab 1 Report
 
   This will be a tutorial first CSE 15L lab, meaningly about remote access to the ieng6 course specific account and run simple commands. 
 
@@ -58,5 +58,24 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
   Now your terminal is connected to a computer in CSE basement, and any commands you will run on that computer. 
   
   
-## Step 3 Trying Some Commands
+## Step 3 - Trying Some Commands
 
+Let's try some command here, on both remote connecting and your own computer. Try command in different position and think about what you see. Here are some command you can try: 
+
+- `pwd` : print working directory 
+- `ls <path>` : list the files and folders in the given path 
+- `cd <path>` : change directory, used to switch the current working directory to the given path 
+- `cat <path1> <path2> `... Prints the contents of files given by the paths 
+
+Also try these command too: 
+
+- `ls -lat`
+- `ls <directory>`
+- `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+- `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+  
+After finishing, you can log out the remote server, you can :
+- Ctrl D
+- Run the command `exit`
+  
+**Congratulations!** Now you are done with the remote server part of this lab. 
