@@ -5,7 +5,11 @@
 ## Step 1 - Installing VScode 
 
 1. Go to the Visual Studio Cose websit [Visual Studio Website](https://code.visualstudio.com/), and download the suitable version of VScode for you computer.
-  (you can see at the right side of the screen, there is a bottom shows which version you should download for your computer, you can just clicking downloading and then open it, when installing, you can keep all setting as default) 
+  
+  You can see at the right side of the screen, there is a bottom shows which version you should download for your computer.
+  
+  You can just clicking downloading and then open it, when installing, you can keep all setting as default) 
+  
   ![image](https://user-images.githubusercontent.com/122570012/215300595-7b3c3140-feb3-4a4b-9147-0a4e4895761b.png)
   
 
