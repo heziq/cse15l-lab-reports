@@ -15,7 +15,8 @@
 
 2. Once finish downloading and installing, open VS code, this should be the page you will see. 
   
-        <img src="https://user-images.githubusercontent.com/122570012/215301108-eea292e0-6b36-4614-9098-b2dd7c844933.png" width=70% height=60%>
+        ![image](https://user-images.githubusercontent.com/122570012/215303487-1c7367a7-ff7f-4ce3-bf85-13a5b201b29f.png)
+
 
 
    
