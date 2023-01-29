@@ -6,16 +6,16 @@
 
 1. Go to the Visual Studio Cose websit [Visual Studio Website](https://code.visualstudio.com/), and download the suitable version of VScode for you computer.
   
-  You can see at the right side of the screen, there is a bottom shows which version you should download for your computer.
+    You can see at the right side of the screen, there is a bottom shows which version you should download for your computer.
   
-  You can just clicking downloading and then open it, when installing, you can keep all setting as default) 
+    You can just clicking downloading and then open it, when installing, you can keep all setting as default) 
   
   ![image](https://user-images.githubusercontent.com/122570012/215300595-7b3c3140-feb3-4a4b-9147-0a4e4895761b.png)
   
 
 2. Once finish downloading and installing, open VS code, this should be the page you will see. 
   
-      <img src="https://user-images.githubusercontent.com/122570012/215301108-eea292e0-6b36-4614-9098-b2dd7c844933.png" width=70% height=60%>
+        <img src="https://user-images.githubusercontent.com/122570012/215301108-eea292e0-6b36-4614-9098-b2dd7c844933.png" width=70% height=60%>
 
 
    
