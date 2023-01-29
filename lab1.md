@@ -10,8 +10,10 @@
   
 
 2. Once finish downloading and installing, open VS code, this should be the page you will see. 
+  
+      <img src="https://user-images.githubusercontent.com/122570012/215301108-eea292e0-6b36-4614-9098-b2dd7c844933.png" width=70% height=60%>
 
-  ![start vs code](https://user-images.githubusercontent.com/122570012/212607763-869b4902-1b4d-4d0a-9145-be2b868a2eb7.png)
+
    
 Now we are done with first step, let's move to next step. 
 
