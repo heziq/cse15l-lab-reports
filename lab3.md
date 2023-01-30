@@ -132,5 +132,5 @@ Examples of using "/add-massage"
 	
 ## Part 5 : Conclusion 
 
-	In these two weeks of labs, I have learned a lot of things that I did not know before. In lab two, I get a basic idea of how a web server is create and learn how to make some simple operation and command to the server. In lab three, I met a lot of example of failure-including inputs, bugs and symputoms, which we learned from lecture. By trying those things myself, I have a better understanding on how debugging and testing works. Before lecture and labs, I thought bugs are just errors. But after the lecture I realized that it has a lot of thing to talk about. 
+In these two weeks of labs, I have learned a lot of things that I did not know before. In lab two, I get a basic idea of how a web server is create and learn how to make some simple operation and command to the server. In lab three, I met a lot of example of failure-including inputs, bugs and symputoms, which we learned from lecture. By trying those things myself, I have a better understanding on how debugging and testing works. Before lecture and labs, I thought bugs are just errors. But after the lecture I realized that it has a lot of thing to talk about. 
 	
