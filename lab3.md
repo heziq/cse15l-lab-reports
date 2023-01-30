@@ -69,3 +69,6 @@ Examples of using "/add-massage"
 - `int port` is assigned to number 4000 in this case. 
  
 - Port number is not changed in these two screenshot because we did not re-run the StringServer with different port number. 
+
+
+## Part 2: Bugs and Symptoms
