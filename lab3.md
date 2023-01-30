@@ -72,7 +72,7 @@ Examples of using "/add-massage"
 
 
 ## Part 2: Bugs and Symptoms
-1. A failure-inducing input for the buggy program 
+1.  A failure-inducing input for the buggy program 
 
   ```
   @Test 
@@ -83,7 +83,7 @@ Examples of using "/add-massage"
 	}
   ```
   
-2. An input that doesn’t induce a failure
+2.  An input that doesn’t induce a failure
 
   ```
   @Test 
@@ -94,11 +94,11 @@ Examples of using "/add-massage"
 	}
   ```
 
-3. The symptom, as the output of running the tests 
+3.  The symptom, as the output of running the tests 
 
   ![image](https://user-images.githubusercontent.com/122570012/215396014-1f5ebed1-20c8-45dc-ae7a-e373c1241259.png)
   
-4. The bug, as the before-and-after code change required to fix it 
+4.  The bug, as the before-and-after code change required to fix it 
 
   - code before fixed 
   
@@ -124,7 +124,7 @@ Examples of using "/add-massage"
    }
    ```
   
-5. Discussion 
+5.  Discussion 
 
 	The reason why the original code does not work is that it changes all the array in order. For example, the code first tried to assign the last index element to the first index, this is fine forr now. But later, when the code try to assign the original first index element to the last index, the first index element is already changed to the original last element. 
 	
