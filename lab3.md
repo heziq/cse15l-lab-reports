@@ -129,3 +129,8 @@ Examples of using "/add-massage"
 	The reason why the original code does not work is that it changes all the array in order. For example, the code first tried to assign the last index element to the first index, this is fine forr now. But later, when the code try to assign the original first index element to the last index, the first index element is already changed to the original last element. 
 	
 	What I did to change the code is that: first copy the original array to a new array, then use the new array to change the original array, i.e assign the new array to original array in reverse order. This can avoid the problem. 
+	
+## Part 5 : Conclusion 
+
+	In these two weeks of labs, I have learned a lot of things that I did not know before. In lab two, I get a basic idea of how a web server is create and learn how to make some simple operation and command to the server. In lab three, I met a lot of example of failure-including inputs, bugs and symputoms, which we learned from lecture. By trying those things myself, I have a better understanding on how debugging and testing works. Before lecture and labs, I thought bugs are just errors. But after the lecture I realized that it has a lot of thing to talk about. 
+	
