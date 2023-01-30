@@ -123,3 +123,9 @@ Examples of using "/add-massage"
      }
    }
    ```
+  
+5. Discussion 
+
+	The reason why the original code does not work is that it changes all the array in order. For example, the code first tried to assign the last index element to the first index, this is fine forr now. But later, when the code try to assign the original first index element to the last index, the first index element is already changed to the original last element. 
+	
+	What I did to change the code is that: first copy the original array to a new array, then use the new array to change the original array, i.e assign the new array to original array in reverse order. This can avoid the problem. 
