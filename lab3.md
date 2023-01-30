@@ -112,15 +112,14 @@ Examples of using "/add-massage"
     
   - code after fixed 
   
-    ``` 
+   ``` 
   static void reverseInPlace(int[] arr) {
     int[] ori = new int[arr.length];
     for(int i = 0;i <arr.length; i += 1){
-      ori[i] = arr[i];
+    	ori[i] = arr[i];
     }
-
     for(int i = 0; i<arr.length; i +=1){
-      arr[i] = ori[arr.length -i -1];
+    	arr[i] = ori[arr.length -i -1];
     }
   }
-    ```
+   ```
