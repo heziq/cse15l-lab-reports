@@ -72,3 +72,55 @@ Examples of using "/add-massage"
 
 
 ## Part 2: Bugs and Symptoms
+1. A failure-inducing input for the buggy program 
+
+  ```
+  @Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 1,2,3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3,2,1 }, input1);
+	}
+  ```
+  
+2. An input that doesn’t induce a failure
+
+  ```
+  @Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 1 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 1 }, input1);
+	}
+  ```
+
+3. The symptom, as the output of running the tests 
+
+  ![image](https://user-images.githubusercontent.com/122570012/215396014-1f5ebed1-20c8-45dc-ae7a-e373c1241259.png)
+  
+4. The bug, as the before-and-after code change required to fix it 
+
+  - code before fixed 
+  
+    ```
+    static void reverseInPlace(int[] arr) {
+      for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+      }
+    }
+    ```
+    
+  - code after fixed 
+  
+    ``` 
+  static void reverseInPlace(int[] arr) {
+    int[] ori = new int[arr.length];
+    for(int i = 0;i <arr.length; i += 1){
+      ori[i] = arr[i];
+    }
+
+    for(int i = 0; i<arr.length; i +=1){
+      arr[i] = ori[arr.length -i -1];
+    }
+  }
+    ```
