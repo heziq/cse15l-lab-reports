@@ -25,7 +25,7 @@
       $ grep -r -w -l "wonders of Califor" written_2
       ``
       
-      There would be no output. 
+      There would be no output. This `-w` option is useful when we want to locate exact words can check for errors. 
       
       Note: `-r` and `-l` here means search through the directory recursively and list the matched file path. 
       
@@ -61,6 +61,8 @@
       144:The oldest part of San Diego is situated 3 miles (4.8 km) north of downtown in the area known as Old Town (bounded by Juan, Congress, Twiggs, and Wallace streets). Here...or eat at one of the many restaurants.
       ``
       
+      This `-n` option is useful when we want to locate the line that the content we want occur. 
+      
       Source: [nine-ways-to-use-grep](https://www.comptia.org/blog/nine-ways-to-use-grep-to-filter-results-linux)
 
 3. `-h` option
@@ -91,6 +93,8 @@
     ``
   The oldest part of San Diego is situated 3 miles (4.8 km) north of downtown in the area known as Old Town (bounded by Juan, Congress, Twiggs, and Wallace streets). Here... or eat at one of the many restaurants.
     ``
+  
+    The `-h` option can help us simplify the output compare with `-n`. Sometime when we do not want to display the filename, `-h` option is more useful. 
   
     Source: [grep-examples](https://linuxhandbook.com/grep-command-examples/)
     
@@ -137,6 +141,8 @@
     written_2/travel_guides/berlitz1
     written_2/travel_guides/berlitz2
     `` 
+    
+    `-v` option is useful when we want to exclude something from out result. 
     
     Source: [grep-command](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
