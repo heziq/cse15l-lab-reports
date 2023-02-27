@@ -53,6 +53,20 @@ Using command `nano` to open the file, using up and down arrows to locate the er
 
 Key pressed : `nano L<tab>.java` 
 
+
+
+before : 
+![image](https://user-images.githubusercontent.com/122570012/221452237-1f18b976-8b27-4097-846a-d8e3da885a97.png)
+
+after: 
+![image](https://user-images.githubusercontent.com/122570012/221452252-00bb56aa-0946-47d4-82fa-e98ee5efc808.png)
+
+
+ctrl x 
+ Y 
+ <enter>
+  
+
   
   
 
