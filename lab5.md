@@ -29,13 +29,13 @@
       
       Note: `-r` and `-l` here means search through the directory recursively and list the matched file path. 
       
-      Source: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix
+      Source: [grep-command](https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix)
       
 2. `-n` option 
 
     `-n` option with `grep` help us to find where the specific words occur, i.e. show the line number of that word.  
       
-      For example now we want to know which line does "wonders of Carlifornia" occur in the file, we can use:
+      For example now we want to know which line does "wonders of California" occur in the file, we can use:
       
       ``
       $ grep -n "wonders of California" written_2/travel_guides/berlitz2/California-WhereToGo.txt
@@ -61,7 +61,7 @@
       144:The oldest part of San Diego is situated 3 miles (4.8 km) north of downtown in the area known as Old Town (bounded by Juan, Congress, Twiggs, and Wallace streets). Here...or eat at one of the many restaurants.
       ``
       
-      Source: https://www.comptia.org/blog/nine-ways-to-use-grep-to-filter-results-linux
+      Source: [nine-ways-to-use-grep](https://www.comptia.org/blog/nine-ways-to-use-grep-to-filter-results-linux)
 
 3. `-h` option
 
@@ -92,7 +92,7 @@
   The oldest part of San Diego is situated 3 miles (4.8 km) north of downtown in the area known as Old Town (bounded by Juan, Congress, Twiggs, and Wallace streets). Here... or eat at one of the many restaurants.
     ``
   
-    Source: https://linuxhandbook.com/grep-command-examples/
+    Source: [grep-examples](https://linuxhandbook.com/grep-command-examples/)
     
 4. `-v` option 
 
@@ -138,5 +138,5 @@
     written_2/travel_guides/berlitz2
     `` 
     
-    Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+    Source: [grep-command](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
