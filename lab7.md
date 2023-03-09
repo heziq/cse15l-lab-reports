@@ -58,6 +58,16 @@ The terminal would now show us the .java file:
 ![image](https://user-images.githubusercontent.com/122570012/221459093-0807c524-3be5-48e9-b762-41bd9ba45656.png)
 
 After this command, file "ListExamples.java" would be opened. "tab" would automatically fill possible worlds for us. Then read the code, use arrow keys to locate and edit the file, the changes should be maded is shown below: change the "index1" to "index2" 
+  
+  Key pressed : 
+  
+  ``
+  <down><down>...<down> (until reach the wanted line)
+  <right><right>...<right>
+  <backspace><2>
+  ``
+  
+          
 
 before : 
 ![image](https://user-images.githubusercontent.com/122570012/221452237-1f18b976-8b27-4097-846a-d8e3da885a97.png)
@@ -66,6 +76,8 @@ after:
 ![image](https://user-images.githubusercontent.com/122570012/221452252-00bb56aa-0946-47d4-82fa-e98ee5efc808.png)
 
 After editting, press `ctrl+X` to exit, type `Y` when it asking for saving changes, then press "enter" key to exit. 
+
+Kep pressed : <ctrl+X><Y><enter>
 
 ## Step 5 : Run the test and show success 
 
