@@ -63,8 +63,11 @@ After this command, file "ListExamples.java" would be opened. "tab" would automa
   
   ``
   <down><down>...<down> (until reach the wanted line)
+  
   <right><right>...<right>
+  
   <backspace><2>
+  
   ``
   
           
@@ -77,7 +80,7 @@ after:
 
 After editting, press `ctrl+X` to exit, type `Y` when it asking for saving changes, then press "enter" key to exit. 
 
-Kep pressed : <ctrl+X><Y><enter>
+Kep pressed : ` <ctrl+X> <Y> <enter> `
 
 ## Step 5 : Run the test and show success 
 
