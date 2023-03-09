@@ -61,12 +61,7 @@ After this command, file "ListExamples.java" would be opened. "tab" would automa
   
   Key pressed : 
   
-  ``
-  <down> <down> ... <down> (until reach the wanted line)
-  <right> <right> ... <right>
-  <backspace> <2>
-  
-  ``
+  ` <down> <down> ... <down> (until reach the wanted line) <right> <right> ... <right> <backspace> <2> `
   
           
 
