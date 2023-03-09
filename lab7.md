@@ -55,7 +55,7 @@ Key pressed : `nano L<tab>.java`
 
 The terminal would now show us the .java file: 
 
-![image](https://user-images.githubusercontent.com/122570012/221459093-0807c524-3be5-48e9-b762-41bd9ba45656.png
+![image](https://user-images.githubusercontent.com/122570012/221459093-0807c524-3be5-48e9-b762-41bd9ba45656.png)
 
 After this command, file "ListExamples.java" would be opened. "tab" would automatically fill possible worlds for us. Then read the code, use arrow keys to locate and edit the file, the changes should be maded is shown below: change the "index1" to "index2" 
 
