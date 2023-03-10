@@ -106,7 +106,7 @@ Using `git commit -m "changed" ` and `git push` to finish the commit and push :
 ![image](https://user-images.githubusercontent.com/122570012/221460376-60c081fd-5bdf-49e8-b4e7-e86676fecf56.png)
 
 
-At this point, all works are done and changes are safely saved. 
+At this point, all works are done and changes are safely saved.  
 
 
 
