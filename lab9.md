@@ -1,11 +1,11 @@
-## Lab Report 5
+# Lab Report 5
 
 In lab report 3, I did exploration on command `grep`, so in this lab report, I'll talk about the `find` command. 
 
 `find` command is a useful command that allows people to search for files and directories in various ways. 
 Here are some interesting example of different uses of `grep` command. 
 
-# 1. Find a single file by approximate name 
+## 1. Find a single file by approximate name 
   
   If we are not sure about what the exact name of the file, but only remember the key words of the file name.
   We can use `*  *`  to do a partial search like this:
@@ -47,7 +47,7 @@ Here are some interesting example of different uses of `grep` command.
   Source: [10 ways to use find command](https://www.redhat.com/sysadmin/linux-find-command)
   
 
-# 2. Limiting list result 
+## 2. Limiting list result 
 
   Sometimes, there are a lot of files that match our requirments, but we only need several examples.
   At this time, we can use `-head` option follow by the number of files we want. 
@@ -91,7 +91,7 @@ Here are some interesting example of different uses of `grep` command.
   Source: [10 ways to use find command](https://www.redhat.com/sysadmin/linux-find-command)
   
   
-# 3. Find files based on their type 
+## 3. Find files based on their type 
 
    If we only want to search for files, we can use `-f` option:
    
